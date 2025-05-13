@@ -19,6 +19,13 @@ class _HomePageInfoclinState extends State<HomePageInfoclin> {
   }
   buildappbar(){
     return AppBar(
+      actions: [
+        Icon(
+          Icons.home,
+          color: Colors.white,
+          size: 40,
+        ),
+      ],
       centerTitle: true,
       backgroundColor: Color(0xFF7cb2d6),
       title:
@@ -28,7 +35,7 @@ class _HomePageInfoclinState extends State<HomePageInfoclin> {
             fontSize: 32,
             fontFamily: 'Carrois Gothic SC',
             color: Colors.white,
-            fontWeight: FontWeight.w600
+            fontWeight: FontWeight.bold
         ),
       ),
     );

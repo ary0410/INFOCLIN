@@ -7,5 +7,4 @@ void main() {
         home: HomePageInfoclin()
   ),
   );
-  //oiii
 }
