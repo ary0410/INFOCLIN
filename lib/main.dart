@@ -5,8 +5,7 @@ void main() {
   runApp(
       MaterialApp(
         home: HomePageInfoclin()
-      )
-
-          //lalala
+  ),
   );
+  //oiii
 }
