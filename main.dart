@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:teste_app/home_page.dart';
-import 'package:teste_app/home_page_infoclin.dart';
+import 'dicasExames.dart';
 
 void main() {
   runApp(
-      MaterialApp(
-        home: HomePageInfoclin(),
+      const MaterialApp(
+        home: DicasdeexamesInfoclin(),
       )
   );
 }
+
